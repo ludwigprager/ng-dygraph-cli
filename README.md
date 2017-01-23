@@ -2,9 +2,9 @@
 ## 1. build image
 ~~
 
-docker build -t ng-dygraph-cli:0.1 .
+docker build -t ludwigprager/ng-dygraph-cli:0.1 .
 
 
 ## 2. start the container
 
-docker run -t --rm ng-dygraph-cli:0.1
+docker run -t --rm ludwigprager/ng-dygraph-cli:0.1
