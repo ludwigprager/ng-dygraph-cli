@@ -8,7 +8,8 @@ Thanks to Ivan Stepic for his module an his support.
 docker run -t --rm ludwigprager/ng-dygraph-cli:0.1
 ```
 
-Option '-i' would prevent the container to be cancelled by ctrl-c
+This will start the server implicitly.
+Stop the container with ctrl-c. (That's why option '-i' is omitted, would prevent the container to be cancelled)
 
 ### start the container only
 You need ti issue the 'ng serve' command manually in the shell.
