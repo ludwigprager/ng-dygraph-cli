@@ -8,8 +8,9 @@ Thanks to Ivan Stepic for his module an his support.
 docker run -t --rm ludwigprager/ng-dygraph-cli:0.1
 ```
 
-This will start the server implicitly.
-Stop the container with ctrl-c. (That's why option '-i' is omitted, would prevent the container to be cancelled)
+This will start the server implicitly, too.
+Stop the container with ctrl-c.
+
 
 ### start the container only
 You need ti issue the 'ng serve' command manually in the shell.
@@ -17,6 +18,7 @@ You need ti issue the 'ng serve' command manually in the shell.
 ```
 docker run -it --rm ludwigprager/ng-dygraph-cli:0.1 /bin/bash
 ```
+
 
 ### build the image yourself
 
