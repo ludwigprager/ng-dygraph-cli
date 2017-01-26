@@ -1,10 +1,11 @@
 ## angular-cli / ng-dygraphs docker image
 docker image for [ng-dygraphs](https://www.npmjs.com/package/ng-dygraphs) with angular-cli.
-ng-dygraphs is a angular2 wrapper for [dygraphs](http://dygraphs.com).
+ng-dygraphs is an angular2 wrapper for [dygraphs](http://dygraphs.com).
 
 ### Why this image
 I struggled to get ng-dygraphs running with angular-cli and wanted to test it in an isolated environment.
-Note, that a particular version of angular-cli and ng-dygraph is specified. This should help to reproduce a running environment. Feel free to contact me whenever you think that newer versione are reasonable.
+Note, that a particular version of angular-cli and ng-dygraph is specified. This should help to reproduce a running environment. Feel free to contact me whenever you think that newer versions are reasonable.
+
 Thanks to Ivan Stepic for his module an his support.
 
 ### start the container
