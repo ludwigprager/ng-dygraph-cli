@@ -27,5 +27,7 @@ RUN npm install dygraphs@2.0.0 --save
 RUN npm install ng-dygraphs@0.2.4 --save
 
 EXPOSE 4200
+EXPOSE 49153
 
-CMD ["ng", "serve"]
+# ng serve --host 0.0.0.0 --port 4201 --live-reload-port 49153
+CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "4201", "--live-reload-port", "49153"]
